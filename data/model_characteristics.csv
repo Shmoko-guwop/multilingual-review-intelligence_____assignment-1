@@ -1,0 +1,4 @@
+model,architecture,pretraining_data,reported_language_coverage,tokenization,analysis_focus
+mBERT,BERT encoder,Wikipedia,104 languages,WordPiece,Shared multilingual vocabulary and cross-language representations
+XLM-R,RoBERTa-style encoder,CC-100 / Common Crawl,100 languages,SentencePiece,Large multilingual web corpus and cross-lingual transfer
+mDeBERTa-v3,DeBERTa-v3 encoder,CC-100 multilingual data,16 languages on model card,"SentencePiece-based, 250K vocabulary",Disentangled attention and ELECTRA-style pretraining

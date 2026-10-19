@@ -1,0 +1,10 @@
+experiment,model,language,test_examples,accuracy,error_rate
+bilingual,XLM-R,en,500,0.752,0.248
+bilingual,XLM-R,es,500,0.764,0.236
+bilingual,mBERT,en,500,0.742,0.258
+bilingual,mBERT,es,500,0.706,0.29400000000000004
+bilingual,mDeBERTa-v3,en,500,0.786,0.21399999999999997
+bilingual,mDeBERTa-v3,es,500,0.774,0.22599999999999998
+english_to_spanish,XLM-R,es,500,0.728,0.272
+english_to_spanish,mBERT,es,500,0.648,0.352
+english_to_spanish,mDeBERTa-v3,es,500,0.744,0.256
